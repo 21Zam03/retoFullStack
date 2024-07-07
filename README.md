@@ -1,3 +1,8 @@
+# Application view 
+![Descripción de la imagen](/public/cap1.jpeg)
+![Descripción de la imagen](/public/cap2.jpeg)
+![Descripción de la imagen](/public/cap3.jpeg)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
