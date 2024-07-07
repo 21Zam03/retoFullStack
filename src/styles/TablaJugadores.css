@@ -1,0 +1,89 @@
+.tabla {
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-width: 1;
+    border-color: black;
+}
+
+.tabla img {
+    width: 150px;
+    border-radius: 5px;
+}
+
+.tabla th {
+    padding: 100;
+}
+
+.tabla .no_content {
+    text-align: "center";
+}
+
+.tabla a {
+    text-decoration: none;
+    color: rgb(222, 42, 42);
+}
+
+.tabla .contenedor-botones {
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 50%;
+}
+
+.tabla button {
+    border-radius: 5px;
+    outline: none;
+}
+
+.tabla .contenedor-botones .botonpages {
+    display: flex;
+    gap: 10px;
+}
+
+.tabla .contenedor-botones .active {
+    background-color: rgb(216, 4, 36);
+    border: 1px rgb(216, 4, 36) solid;
+    padding: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.tabla .contenedor-botones .active:hover {
+    background-color: rgb(229, 73, 96);
+    border: 1px rgb(229, 73, 96) solid;
+}
+
+.tabla .contenedor-botones .desactive {
+    background-color: rgb(175, 158, 160);
+    border: none;
+    padding: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.tabla .contenedor-botones .active2 {
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgb(175, 158, 160);
+    border: 3px rgb(255, 0, 72), solid;
+}
+
+.tabla .contenedor-botones .desactive2 {
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgb(175, 158, 160);
+    border-color: rgb(222, 215, 215);
+    border: none;
+    outline: none;
+}
+
+.tabla .contenedor-botones .desactive2:hover {
+    background-color: rgb(223, 217, 218);
+}

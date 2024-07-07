@@ -1,0 +1,24 @@
+.contenedor-buscador {
+    display: flex;
+    flex-direction: row;
+    justify-content: "center";
+    align-items: "center";
+    gap: 10px;
+}
+
+.buscador {
+    width: 95%;
+    color: gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.contenedor-buscador .boton {
+    width: 5%;
+    color: white;
+    padding: 10px;
+    background-color:rgb(225, 53, 53);
+    border-radius: 10px;
+    border-color: rgb(225, 53, 53);
+    border-width: 2px;
+}
